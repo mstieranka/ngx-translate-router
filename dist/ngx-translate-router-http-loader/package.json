@@ -1,0 +1,41 @@
+{
+  "name": "@gilsdav/ngx-translate-router-http-loader",
+  "version": "2.0.0",
+  "homepage": "https://github.com/gilsdav/ngx-translate-router#readme",
+  "license": "MIT",
+  "author": {
+    "name": "David Gilson",
+    "email": "davgilson@live.fr",
+    "url": "https://github.com/gilsdav"
+  },
+  "peerDependencies": {
+    "@gilsdav/ngx-translate-router": ">=4.0.0",
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
+    "@angular/router": ">=13.0.0",
+    "@ngx-translate/core": ">=11.0.1"
+  },
+  "module": "fesm2015/gilsdav-ngx-translate-router-http-loader.mjs",
+  "es2020": "fesm2020/gilsdav-ngx-translate-router-http-loader.mjs",
+  "esm2020": "esm2020/gilsdav-ngx-translate-router-http-loader.mjs",
+  "fesm2020": "fesm2020/gilsdav-ngx-translate-router-http-loader.mjs",
+  "fesm2015": "fesm2015/gilsdav-ngx-translate-router-http-loader.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/gilsdav-ngx-translate-router-http-loader.mjs",
+      "es2020": "./fesm2020/gilsdav-ngx-translate-router-http-loader.mjs",
+      "es2015": "./fesm2015/gilsdav-ngx-translate-router-http-loader.mjs",
+      "node": "./fesm2015/gilsdav-ngx-translate-router-http-loader.mjs",
+      "default": "./fesm2020/gilsdav-ngx-translate-router-http-loader.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
