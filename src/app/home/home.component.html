@@ -1,9 +1,0 @@
-<p>
-  {{'TITLE' | translate}}
-</p>
-
-<p><a [routerLink]="['/matcher'] | localize">Matcher</a></p>
-<p><a [routerLink]="['/test', 'bob'] | localize">test</a></p>
-<p><a [routerLink]="['/!test', 'bob'] | localize">test2</a></p>
-
-<router-outlet (activate)="routerOutletActivation(true)" (deactivate)="routerOutletActivation(false)"></router-outlet>
